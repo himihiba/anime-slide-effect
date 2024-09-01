@@ -433,6 +433,9 @@ header nav a{
     .carousel .list .item{
         width: 90%;
     }
+    .carousel{
+        height: 100vh;
+    }
 }
 @media screen and (max-width: 567px) {
     .carousel .list .item{
