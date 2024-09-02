@@ -477,7 +477,7 @@ header nav a{
     }
     .carousel .list .item .intro{
         top: 50%;
-        transform: translateY(-40%);
+        transform: translateY(-30%);
     }
     a{
         font-size: .7rem;
