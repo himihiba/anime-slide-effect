@@ -48,10 +48,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   border-radius: 20px;
-  object-position: center;
+  object-position: top;
 }
 .container{
     width: 1140px;
@@ -107,7 +107,8 @@ header nav a{
     position: absolute;
     right: 0;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
+    margin-right: 3em;
 }
 .carousel .list .item .detail{
     opacity: 0;
@@ -117,8 +118,8 @@ header nav a{
 .carousel .list .item .intro{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    width: 50%;
+    transform: translateY(-20%);
+    width: 40%;
     opacity: 0;
     pointer-events: none; 
 }
@@ -127,11 +128,13 @@ header nav a{
     line-height: 0.8em;
 }
 .carousel .list .item .intro .topic{
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 500;
+    line-height: 1em;
+    margin: .5em 0 .3em 0;
 }
 .carousel .list .item .intro .des{
-    font-size: small;
+    font-size: smaller;
 }
 .carousel .list .item .intro .seeMore{
    background-color: transparent;
@@ -470,10 +473,17 @@ header nav a{
     }
     .ShowDetail .list .item:nth-child(2) .detail{
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-35%);
     }
     .carousel .list .item .intro{
         top: 50%;
         transform: translateY(-40%);
+    }
+    a{
+        font-size: .7rem;
+    }
+    header .logo {
+        font-weight: bold;
+        font-size: 1.1rem;
     }
 }
