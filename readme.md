@@ -1,4 +1,4 @@
-# E-commerce Product Carousel 🎠
+# Product Carousel 🎠
 This project is an image carousel with a smooth animation effect and dynamic content display. It leverages HTML and CSS for structure and styling, creating an interactive user experience suitable for showcasing images, products, or other visual content.
 the carousel provides smooth animations and transitions between products, enhancing user experience on platforms.
 
