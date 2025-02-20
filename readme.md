@@ -1,5 +1,5 @@
 # Product Carousel 
-This project is an image carousel with a smooth animation effect and dynamic content display using only CSS.
+This project is an image carousel with a smooth animation effect and dynamic content display.
 
 ## Demo 🚀
 
